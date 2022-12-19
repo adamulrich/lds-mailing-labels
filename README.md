@@ -6,13 +6,15 @@ https://pypi.org/project/pylabels/
 
 2. install chrome HTML-Table Scraper
 https://chrome.google.com/webstore/detail/html-table-scraper/ncphhmcjgbpglahiijnaaaaneoijlmkj/related?hl=en
-3. Turn off all options in the table scraper, set it to comma separate values
-4. create a report that looks like the report_format.png
+
+# how to use
+1. Turn off all options in the table scraper, set it to comma separate values
+2. create a report that looks like the report_format.png
 ![report format ](https://github.com/adamulrich/lds-mailing-labels/blob/main/report_format.png)
-5. preview the report.
-6. right click in the table and choose the html table scraper and save it to a file label_data.csv in this folder.
-7. review the data and remove any lines that you don't want to print.
-8. run python create_labels.py.
+3. preview the report.
+4. right click in the table and choose the html table scraper and save it to a file label_data.csv in this folder.
+5. review the data and remove any lines that you don't want to print.
+6. run python create_labels.py.
 
 results in:
 * labels.pdf file in this directory.
