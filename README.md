@@ -15,11 +15,10 @@ https://chrome.google.com/webstore/detail/html-table-scraper/ncphhmcjgbpglahiijn
 8. run python create_labels.py.
 
 results in:
-
-labels.pdf file in this directory.
+* labels.pdf file in this directory.
 
 If you encounter asserts when running the code, you have data quality issues. Read the messages and debug. I ran into:
 
-Missing city, state and zip codes
-Extra commas in the data, such as "123 main st, apt 10". Apt 10 should be in Address 2.
+* Missing city, state and zip codes
+* Extra commas in the data, such as "123 main st, apt 10". Apt 10 should be in Address 2.
 
